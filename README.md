@@ -14,4 +14,4 @@ Some screenshots:
 License
 -------------------------
 
-All program source code are put under Apache 2.0 except graphic and images files which are allowed for non-commercial use only.
+All program source code are put under Apache 2.0 except graphic and image files which are allowed for non-commercial use only.
