@@ -1,5 +1,10 @@
 package com.seymourcakes.firestatus;
-
+/**
+ * Straight forward Kindle Fire status info viewer app.
+ * https://github.com/seymores/Fire-Status
+ * 
+ * @author Teo Choong Ping
+ */
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,8 +14,8 @@ import android.graphics.Color;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -37,14 +42,15 @@ public class MainActivity extends Activity {
 	}
 	
 	public void info(View v) {
-		
+        Toast.makeText(this, "Straight forward Kindle Fire status viewer.\nSee http://bit.ly/fire-status", 
+        		Toast.LENGTH_LONG).show();
 	}
 	
 	private void updateBackgroundWithStatusLevel(int statusLevel) {
 		View layout = MainActivity.this.findViewById(R.id.layout);
 		String bgCode = "#66cc33";
 		if (statusLevel < 25) {
-			bgCode = "#ff000";
+			bgCode = "#ff0000";
 		} else if (statusLevel < 50) {
 			bgCode = "#ffcc00";
 		} else if (statusLevel < 75) {
@@ -59,11 +65,9 @@ public class MainActivity extends Activity {
 			@Override
 			public void onReceive(Context context, Intent intent) {
 				int batteryLevel = intent.getIntExtra("level", 0);
-				
 				updateBackgroundWithStatusLevel(batteryLevel);
-				
 				statusText.setText(String.valueOf(batteryLevel) + "%");
-
+				
 				int status = intent.getIntExtra("status",
 						BatteryManager.BATTERY_STATUS_UNKNOWN);
 
