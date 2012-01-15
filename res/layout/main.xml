@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center" android:background="#e5e5e5" android:id="@+id/layout">
+
+    <ImageButton
+        android:id="@+id/battery_Image"
+        android:layout_width="320dp"
+        android:layout_height="449dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/battery" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="0%"
+        android:textColor="#000"
+        android:textSize="98dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/extra_text"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="Batery extra info"
+        android:textColor="#222"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info_40" android:background="@null" android:layout_gravity="bottom|right" android:layout_margin="30dp" android:onClick="info"/>
+
+</FrameLayout>
