@@ -8,7 +8,8 @@ Fire Status is a straight forward battery status viewer for Kindle Fire. It simp
 
 Download
 -------------------------
-![Download](https://github.com/seymores/Fire-Status/downloads)
+All releases can be found here:
+https://github.com/seymores/Fire-Status/downloads
 
 
 Some screenshots:
