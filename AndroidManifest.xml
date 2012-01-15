@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Licensed under Apache 2.0 except graphic/image files, (C) Teo Choong Ping -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.seymourcakes.firestatus"
     android:versionCode="1"
