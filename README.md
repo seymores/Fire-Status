@@ -8,4 +8,4 @@ Fire Status is a straight forward battery status viewer for Kindle Fire. It simp
 
 Some screenshots:
 
-![Fire Status](https://github.com/seymores/fire-status/screenshots/screenshot.jpg)
+![Screenshot](https://github.com/seymores/Fire-Status/blob/master/screenshots/screenshot.jpg)
