@@ -6,6 +6,11 @@ What is Fire Status
 
 Fire Status is a straight forward battery status viewer for Kindle Fire. It simple and clutter-free and sure beats the many steps to get to the actual battery level by going through the setting menu.
 
+Download
+-------------------------
+![Download](https://github.com/seymores/Fire-Status/downloads)
+
+
 Some screenshots:
 -------------------------
 
