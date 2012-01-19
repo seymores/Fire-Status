@@ -16,14 +16,15 @@
 
     <TextView
         android:id="@+id/status_text"
-        android:layout_width="198dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
+        android:maxLines="1"
         android:text="0%"
         android:textColor="#000"
-        android:textSize="98dp"
-        android:textStyle="bold" />
+        android:textSize="92dp"
+        android:textStyle="bold" android:shadowColor="#555" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0"/>
 
     <TextView
         android:id="@+id/extra_text"
